@@ -1,6 +1,6 @@
 '''
     Reverse String
-    Runtime: 676 ms
+    Runtime: 172 ms
 '''
 
 class Solution:
