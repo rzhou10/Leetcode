@@ -1,6 +1,6 @@
-'''
-    Not Boring Movies
-    Runtime: 123 ms
-'''
+/*
+    Big Countries
+    Runtime: 241 ms
+*/
 
 SELECT * FROM cinema WHERE id % 2 = 1 AND description != "boring" ORDER BY rating DESC
