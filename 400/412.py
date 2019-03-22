@@ -1,6 +1,6 @@
 '''
     Fizz Buzz
-    Runtime: 72 ms
+    Runtime: 56 ms
 '''
 
 class Solution:
