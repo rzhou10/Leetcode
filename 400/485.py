@@ -1,18 +1,15 @@
 '''
     Max Consecutive Ones
-    Runtime: 100 ms
+    Runtime: 72 ms
 '''
 
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
-        count = 0
-        current = 0
-        
-        for i in range(len(nums)):
-            if nums[i] == 1:
-                current += 1
-                count = max(count, current)
+        maxl = l = 0
+        for n in nums:
+            if n == 1:
+                l += 1
             else:
-                current = 0
-        
-        return count
+                maxl = max(maxl, l)
+                l = 0
+        return max(maxl, l)
