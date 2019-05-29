@@ -1,6 +1,6 @@
 '''
     Sqrt(x)
-    Runtime: 56 ms
+    Runtime: 36 ms
 '''
 
 class Solution:

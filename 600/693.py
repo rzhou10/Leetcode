@@ -1,6 +1,6 @@
 '''
     Binary Number with Alternating Bits
-    Runtime: 44 ms
+    Runtime: 28 ms
 '''
 
 class Solution:

@@ -1,6 +1,6 @@
 '''
     Reverse Integer
-    Runtime: 52 ms
+    Runtime: 32 ms
 '''
 
 class Solution:

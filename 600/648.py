@@ -1,6 +1,6 @@
 '''
     Replace Words
-    Runtime: 268 ms
+    Runtime: 248 ms
 '''
 
 class Solution:

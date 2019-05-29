@@ -1,6 +1,6 @@
 '''
     Goat Latin
-    Runtime: 40 ms
+    Runtime: 32 ms
 '''
 
 class Solution:
