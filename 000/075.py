@@ -1,6 +1,6 @@
 '''
     Sort Colors
-    Runtime: 44  ms
+    Runtime: 44 ms
 '''
 
 class Solution:

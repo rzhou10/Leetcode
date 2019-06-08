@@ -1,6 +1,6 @@
 '''
     Uncommon Words from Two Sentences
-    Runtime: 44 ms
+    Runtime: 32 ms
 '''
 
 class Solution:
