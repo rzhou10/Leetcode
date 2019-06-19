@@ -1,6 +1,6 @@
 '''
     Pow(x, n)
-    Runtime: 44 ms
+    Runtime: 36 ms
 '''
 
 class Solution:
