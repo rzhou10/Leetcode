@@ -1,6 +1,6 @@
 '''
     Majority Element II
-    Runtime: 64 ms
+    Runtime: 36 ms
 '''
 
 class Solution:

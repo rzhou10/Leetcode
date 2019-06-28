@@ -1,20 +1,14 @@
 '''
     Add Digits
-    Runtime: 60 ms
+    Runtime: 36 ms
 '''
 
 class Solution:
     def addDigits(self, num: int) -> int:
-        single = list(str(num))
+        x = 0
         
-        sumNum = 0
-        
-        while True:            
-            for i in single:
-                sumNum += int(i)
-
-            if sumNum < 10:
-                return sumNum
-            single = list(str(sumNum))
-            sumNum = 0
-        
+        while num:
+            x += num % 10
+            num //= 10
+            
+        return x if x < 10 else self.addDigits(x)

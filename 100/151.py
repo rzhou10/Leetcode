@@ -1,6 +1,6 @@
 '''
     Reverse Words in a String
-    Runtime: 52 ms
+    Runtime: 36 ms
 '''
 
 class Solution:
